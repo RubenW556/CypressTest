@@ -9,6 +9,7 @@
   },
   "private": true,
   "dependencies": {
+    "cypress": "^13.6.6",
     "hello-world-npm": "^1.1.1"
   }
 }
