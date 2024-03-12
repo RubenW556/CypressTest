@@ -1,1 +1,3 @@
-console.log("hi")
+import HelloWorldNPM from 'hello-world-npm';
+
+console.log(HelloWorldNPM());
