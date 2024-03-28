@@ -1,0 +1,8 @@
+node {
+    stage "Create build output"
+    checkout scm
+    bat "dir"
+    bat "path"
+    bat "node --version"
+    bat "npm --version"
+}
