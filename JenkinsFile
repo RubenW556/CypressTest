@@ -5,4 +5,7 @@ node {
     bat "path"
     bat "node --version"
     bat "npm --version"
+    bat "npm install"
+    bat "npx cypress run --reporter junit"
+    junit "report.xml"
 }
