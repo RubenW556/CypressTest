@@ -7,5 +7,5 @@ node {
     bat "npm --version"
     bat "npm install"
     bat "npx cypress run --reporter junit"
-    junit "report.xml"
+    junit "test-results.xml"
 }
